@@ -4,7 +4,7 @@
 test -d /data || mkdir /data
 
 # Ensure database file exists
-touch /data/g2g.db
+touch "/data/${DATABASE_FILE}"
 
 # Migrate database
 gpodder2go init --database "/data/${DATABASE_FILE}"
