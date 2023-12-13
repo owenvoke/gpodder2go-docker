@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com), and this 
 
 ## Unreleased
 
+## v0.1.1 - 2023-12-13
+
+### Fixed
+- Touch correct database file on init
+
 ## v0.1.0 - 2023-09-29
 
 ### Added
