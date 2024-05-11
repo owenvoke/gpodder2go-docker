@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine as build
+FROM golang:1.22-alpine as build
 
 WORKDIR /app
 
@@ -11,7 +11,7 @@ RUN git clone https://github.com/oxtyped/gpodder2go.git /app
 # Make
 RUN cd /app && make build
 
-FROM golang:1.21-alpine as production
+FROM golang:1.22-alpine as production
 
 WORKDIR /app
 
