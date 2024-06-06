@@ -4,6 +4,10 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Buy us a tree][ico-treeware-gifting]][link-treeware-gifting]
 
+> [!Note]
+> gpodder2go now [distributes its own Docker image](https://github.com/oxtyped/gpodder2go#docker).
+> Please migrate to using this instead.
+
 ## Install
 
 Via Docker
